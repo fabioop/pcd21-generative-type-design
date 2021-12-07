@@ -3,7 +3,7 @@
 Imagine an empty Christmas tree 🌲 and a Christmas tree with decorations 🎄.
 Now the Christmas tree is a typographic skeleton, and the decoration is any shape that you use to give it form.
 That’s what we will be doing in this workshop, exploring possibilities to create unique glyphs/letters based on typographic skeletons and drawing techniques.
-We will be using p5.js, which enables all our creativity to be limited only to the imagination.
+We will be using [p5.js](https://p5js.org/), which enables all our creativity to be limited only to the imagination.
 
 ## Requirements, but not really
 
