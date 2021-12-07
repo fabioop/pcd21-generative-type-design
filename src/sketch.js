@@ -4,7 +4,7 @@ let text = "";
 let epsilon = 0.5;
 const color = "#000000";
 
-let textInput, epsilonInput, resetInput;
+let textDescription, textInput, epsilonDescription, epsilonInput, resetInput;
 
 // load de skeleton
 function preload() {
@@ -17,6 +17,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(3);
   frameRate(30);
+
+  textDescription = createP("Text:");
+  textDescription.id("text-description");
+
+  epsilonDescription = createP("Detail:");
+  epsilonDescription.id("epsilon-description");
 
   // create a text input
   textInput = createInput(text);

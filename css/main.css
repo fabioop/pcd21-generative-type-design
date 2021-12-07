@@ -8,12 +8,20 @@
   padding: 0;
   font-size: 1rem;
   outline: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text-description {
+  position: fixed;
+  left: 10px;
+  top: 20px;
 }
 
 #text-input {
   position: fixed;
   left: 10px;
-  top: 20px;
+  top: 45px;
   width: 200px;
   height: 40px;
   padding: 0 5px;
@@ -21,10 +29,16 @@
   background-color: var(--background);
   border-radius: 20px;
 }
-#epsilon-input {
+
+#epsilon-description {
   position: fixed;
   left: 230px;
   top: 20px;
+}
+#epsilon-input {
+  position: fixed;
+  left: 230px;
+  top: 45px;
   width: 60px;
   height: 40px;
   padding: 0 5px;
@@ -36,7 +50,7 @@
 #reset-input {
   position: fixed;
   left: 300px;
-  top: 20px;
+  top: 45px;
   width: 100px;
   height: 40px;
   padding: 0 5px;
