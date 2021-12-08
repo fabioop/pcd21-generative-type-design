@@ -58,7 +58,7 @@ function draw() {
       let currentCharacter = skeleton["glyphs"][epsilon][character];
 
       makeItPop(currentPosition, currentCharacter);
-      // drawLine(currentPosition, currentCharacter);
+      drawLine(currentPosition, currentCharacter);
 
       currentPosition.add(skeleton["maxX"] * widthRatio, 0);
     }
@@ -66,6 +66,12 @@ function draw() {
     else if (character == " ") {
       currentPosition.add(skeleton["maxX"] * widthRatio, 0);
     }
+  }
+}
+
+function keyPressed() {
+  if (keyCode === 13) {
+    printCanvas();
   }
 }
 
@@ -77,14 +83,15 @@ function makeItPop(position, character) {
   fill(color);
   noStroke();
 
-  const width = 10;
+  // let sizeX = map(mouseX, 0, width, 0, 30, true);
+  // let sizeY = map(mouseY, 0, height, 0, 30, true);
 
   for (const line of character) {
     for (const point of line) {
       //take a look at all the available shapes here:
       //https://p5js.org/reference/#group-Shape
 
-      ellipse(point.x, point.y, width, width);
+      ellipse(point.x, point.y, 10, 10);
     }
   }
   pop();
@@ -124,6 +131,22 @@ function cleanCanvas() {
   text = "";
   textInput.value("");
   clear();
+}
+
+function printCanvas() {
+  let timestamp =
+    year() +
+    "_" +
+    nf(month(), 2) +
+    "_" +
+    nf(day(), 2) +
+    "_" +
+    nf(hour(), 2) +
+    "_" +
+    nf(minute(), 2) +
+    "_" +
+    nf(second(), 2);
+  saveCanvas(timestamp, "png");
 }
 
 // if (line.length == 2) {
