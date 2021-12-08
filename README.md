@@ -13,4 +13,4 @@ We will be using [p5.js](https://p5js.org/), which enables all our creativity to
 
 ## Share your artwork / Workshop GIF
 
-At the end of the workshop, I will ask you to send through this form (insert link) your artwork. Then we can see each other's work and create a cool GIF.
+At the end of the workshop, I will ask you to send through this [form](https://forms.gle/Cr6JCuhNt9W4M3rB6) your artwork. Then we can see each other's work and create a cool GIF.
