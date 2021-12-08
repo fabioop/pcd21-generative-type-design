@@ -69,6 +69,7 @@ function draw() {
   }
 }
 
+//press Enter to print the canvas
 function keyPressed() {
   if (keyCode === 13) {
     printCanvas();
