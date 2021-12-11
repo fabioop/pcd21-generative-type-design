@@ -11,6 +11,10 @@ We will be using [p5.js](https://p5js.org/), which enables all our creativity to
 - A code editor. I don't recommend any. PS: use [VS Code](https://code.visualstudio.com/).
 - If you are in the cool team, install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code so you don't have to reload every time you update the code. Also, I like the [GitHub theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
 
-## Share your artwork / Workshop GIF
+## Workshop GIF
 
-At the end of the workshop, I will ask you to send through this [form](https://forms.gle/Cr6JCuhNt9W4M3rB6) your artwork. Then we can see each other's work and create a cool GIF.
+A cool GIF made of outputs generated in the workshop🔥.
+
+![PCD21-GTD-Workshop-GIF](https://github.com/fabioop/pcd21-generative-type-design/tree/main/outputs/PCD21-GTD-Workshop-GIF.gif)
+
+### Workshop Videos
