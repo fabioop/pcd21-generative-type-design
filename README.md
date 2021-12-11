@@ -15,6 +15,12 @@ We will be using [p5.js](https://p5js.org/), which enables all our creativity to
 
 A cool GIF made of outputs generated in the workshop🔥.
 
-![PCD21-GTD-Workshop-GIF](https://github.com/fabioop/pcd21-generative-type-design/tree/main/outputs/PCD21-GTD-Workshop-GIF.gif)
+![PCD21-GTD-Workshop-GIF](https://github.com/fabioop/pcd21-generative-type-design/blob/main/outputs/PCD21-GTD-Workshop-GIF.gif)
 
 ### Workshop Videos
+
+https://github.com/fabioop/pcd21-generative-type-design/blob/main/outputs/Jo%C3%A3o%20Couceiro%20e%20Castro%20%26%20Masoda.mp4
+
+https://github.com/fabioop/pcd21-generative-type-design/blob/main/outputs/Laura%20Pais.mp4
+
+https://github.com/fabioop/pcd21-generative-type-design/blob/main/outputs/F%C3%A1bio%20Gouveia.mp4
